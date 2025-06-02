@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - YuviSoft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .services-hero {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            padding: 150px 5% 80px;
+            color: white;
+            text-align: center;
+        }
+
+        .services-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 5%;
+        }
+
+        .service-category {
+            margin-bottom: 5rem;
+        }
+
+        .service-category h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .service-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-item i {
+            font-size: 2.5rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+
+        .service-item h3 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .service-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-item ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .service-item ul li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 5rem 5%;
+            background-color: #f9f9f9;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 2rem;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>YuviSoft</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <h1>Our Services</h1>
+            <p>Comprehensive Software Solutions for Your Business</p>
+        </section>
+
+        <section class="services-content">
+            <div class="service-category">
+                <h2>Software Development</h2>
+                <div class="service-items">
+                    <div class="service-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Custom Software Development</h3>
+                        <ul>
+                            <li>Tailored software solutions</li>
+                            <li>Enterprise applications</li>
+                            <li>Legacy system modernization</li>
+                            <li>Software integration services</li>
+                            <li>Quality assurance and testing</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <ul>
+                            <li>iOS app development</li>
+                            <li>Android app development</li>
+                            <li>Cross-platform solutions</li>
+                            <li>Mobile app UI/UX design</li>
+                            <li>App maintenance and support</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>Responsive website design</li>
+                            <li>E-commerce solutions</li>
+                            <li>Web applications</li>
+                            <li>Content management systems</li>
+                            <li>API development and integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-category">
+                <h2>Cloud & Infrastructure</h2>
+                <div class="service-items">
+                    <div class="service-item">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Solutions</h3>
+                        <ul>
+                            <li>Cloud migration services</li>
+                            <li>Cloud infrastructure setup</li>
+                            <li>Cloud security solutions</li>
+                            <li>DevOps implementation</li>
+                            <li>24/7 cloud monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-server"></i>
+                        <h3>Infrastructure Management</h3>
+                        <ul>
+                            <li>IT infrastructure consulting</li>
+                            <li>Network setup and management</li>
+                            <li>Server administration</li>
+                            <li>Backup and recovery solutions</li>
+                            <li>Infrastructure monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                        <ul>
+                            <li>Security assessment</li>
+                            <li>Vulnerability testing</li>
+                            <li>Security implementation</li>
+                            <li>Compliance management</li>
+                            <li>Security training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-category">
+                <h2>Consulting & Support</h2>
+                <div class="service-items">
+                    <div class="service-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>IT Consulting</h3>
+                        <ul>
+                            <li>Digital transformation strategy</li>
+                            <li>Technology assessment</li>
+                            <li>Process optimization</li>
+                            <li>IT roadmap development</li>
+                            <li>Technology stack selection</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Technical Support</h3>
+                        <ul>
+                            <li>24/7 technical support</li>
+                            <li>System maintenance</li>
+                            <li>Performance optimization</li>
+                            <li>Issue resolution</li>
+                            <li>User training</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Project Management</h3>
+                        <ul>
+                            <li>Agile project management</li>
+                            <li>Resource allocation</li>
+                            <li>Risk management</li>
+                            <li>Progress tracking</li>
+                            <li>Quality assurance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Let's discuss how our services can help you achieve your goals</p>
+            <a href="contact.html" class="cta-button">Get Started</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>YuviSoft</h3>
+                <p>Innovative software solutions for modern businesses</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@yuvisoft.in</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YuviSoft. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
